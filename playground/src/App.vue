@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <div class="c-red">
-    xxx
+  <div>
+    <button class="btn">
+      Button
+    </button>
   </div>
 </template>
