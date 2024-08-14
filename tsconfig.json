@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+
+    /* If your code doesn't run in the DOM: */
+    "lib": ["es2022"],
+    "moduleDetection": "force",
+
+    "module": "preserve",
+    /* If NOT transpiling with TypeScript: */
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
+  },
+  "exclude": ["playground", "dist"]
+}
